@@ -6,11 +6,16 @@ sidebar_position: 1
 
 Docusaurus can manage multiple versions of your docs.
 
-## Git selitetty 100 sekunnissa.
+## Git selitetty 100 sekunnissa.  
 
-Release a version 1.0 of your project:
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hwP7WQkmECE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+  
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hwP7WQkmECE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::tip Vinkki
+Jos tykkäät nopeasti asiaan menevistä videoista niin ota haltuun   FireShip:in youtube kanava:   
+
+https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA
+:::
 
 ## Historiaa
 

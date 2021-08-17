@@ -2,11 +2,15 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# Johdanto
 
 Docusaurus can manage multiple versions of your docs.
 
-## Create a docs version
+## Mitä on ohjelmointi?
+
+## Miksi sitä tarvitaan?
+
+## Visuaalinen Frontend
 
 Release a version 1.0 of your project:
 

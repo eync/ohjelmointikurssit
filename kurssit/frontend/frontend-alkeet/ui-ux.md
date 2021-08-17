@@ -3,27 +3,13 @@ sidebar_position: 4
 ---
 
 # UI/UX
+![img](/img/undraw_ui_ux.svg)
+User Interface (UI) ja User Experience (UX) (Suom. Käyttöliittymä ja Käyttökokemus), ovat kummatkin erittäin tärkeitä tuotteen loppuun saamiseksi ja käyttömukavuuden takia.
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
-
-## Create your first Post
-
-Create a file at `blog/2021-02-28-greetings.md`:
-
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-author: Steven Hansel
-author_title: Docusaurus Contributor
-author_url: https://github.com/ShinteiMai
-author_image_url: https://github.com/ShinteiMai.png
-tags: [greetings]
----
-
-Congratulations, you have made your first post!
-
-Feel free to play around and edit this post as much you like.
-```
-
-A new blog post is now available at `http://localhost:3000/blog/greetings`.
+## Ohjelmisto
+## Fonttien ja värien merkitys
+## Wireframe-suunnittelu
+## Tehtävät
+### 1. Tehtävä
+### 2. Tehtävä
+### 3. Tehtävä

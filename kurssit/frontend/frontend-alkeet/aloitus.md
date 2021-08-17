@@ -4,28 +4,4 @@ sidebar_position: 0
 
 # Aloitus
 ![img](/img/undraw_frontend_alku.svg)
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
-
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
- 
-## Create your first React Page
-
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
-
-A new page is now available at `http://localhost:3000/my-react-page`.
+Tervetuloa **Frontendin** ihmeelliseen maailmaan. Tällä kurssilla tulee tutuksi mitä on mm. HTML, CSS, Javacsript ja layout suunnittelu. Sekä pääset käyttämään yleisessä käytössä olevaa hajautettua versionhallintajärjestelmää nimeltä Git sekä tähän liittyvää palveluntarjoajaa GitHubia. Viimeiseksi saat toteuttaa projektin valmiiksi mietityistä ohjeista. 
