@@ -37,41 +37,53 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Kurssitarjonta',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Kurssi info',
+              to: '/kurssit',
             },
+            // {
+            //   label: 'Frontend [javascript]',
+            //   to: '/kurssit',
+            // },
+            // {
+            //   label: 'Backend (javascript)',
+            //   to: '/kurssit',
+            // },
+            // {
+            //   label: 'Fullstack (javascript)',
+            //   to: '/kurssit',
+            // },
+            // {
+            //   label: 'Backend (python)',
+            //   to: '/kurssit',
+            // },
+            // {
+            //   label: 'Fullstack (python)',
+            //   to: '/kurssit',
+            // },
           ],
         },
         {
-          title: 'Community',
+          title: 'Yhteisöt',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: '#',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: '#',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Lisää',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/eync/ohjelmointikurssit',
             },
           ],
         },
@@ -93,13 +105,13 @@ module.exports = {
           routeBasePath: 'kurssit',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/eync/ohjelmointikurssit/',
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          // showReadingTime: true,
+          // // Please change this to your repo.
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

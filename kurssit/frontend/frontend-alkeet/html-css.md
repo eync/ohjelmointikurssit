@@ -14,6 +14,9 @@ Tässä moduulissa tulet tutustumaan HTML ja CSS merkitykseen web-ohjelmoinnissa
 - Sieni
 
 ## Tehtävät
-### 1. Tehtävä
+### 1. Tehtävä (video)
+Käy läpi seuraava video-sarja (sisältää 30 videota)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
 ### 2. Tehtävä
 ### 3. Tehtävä
