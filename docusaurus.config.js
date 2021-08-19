@@ -88,7 +88,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sanjiv Rana. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sanjiv Rana.`,
     },
     prism: {
       theme: lightCodeTheme,
