@@ -4,7 +4,8 @@ sidebar_position: 1
 
 # Johdanto
 
-Docusaurus can manage multiple versions of your docs.
+Git on työkalu lähdekoodin hallinnointiin. Sitä pystytään hyödyntämään eri kokoisissa projekteissa tehokkaasti. 
+Työkaluna se onkin kaikkein käytetyin (tilastot 2021) devaajien keskuudessa.
 
 ## Git selitetty 100 sekunnissa.  
 
@@ -19,9 +20,13 @@ https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA
 
 ## Historiaa
 
-Tiesitkö että Suomalainen Linus Torvalds on kehittänyt Git versionhallinta ohjelmaa?  
+Tiesitkö että suomalainen Linus Torvalds on kehittänyt Git versionhallinta ohjelmaa?  
 Lue Gitin historiasta:   
 - https://en.wikipedia.org/wiki/Git#History
 - https://www.welcometothejungle.com/en/articles/btc-history-git
 
 ## Miten Git eroaa GitHubista?
+
+**Git** on version hallinta järjestelmä jolla voidaan seurata tapahtuvia muutoksia mm. koodin kehitystyössä. 
+
+**GitHub** on Git-tietovaraston ylläpitoa varten tarkoitettu palveluntarjoaja. Se myös tarjoaa verkkopohjaisen käyttöliittymän GIT toimintoja varten. 
