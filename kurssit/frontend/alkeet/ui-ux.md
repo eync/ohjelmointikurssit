@@ -10,6 +10,7 @@ User Interface (UI) ja User Experience (UX) (Suom. Käyttöliittymä ja Käyttö
 ## Ohjelmisto
 ## Fonttien ja värien merkitys
 ## Wireframe-suunnittelu
+## Uskalla inspiroitua!
 ## Tehtävät
 ### 1. Tehtävä
 ### 2. Tehtävä
