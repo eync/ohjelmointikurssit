@@ -3,10 +3,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
+  noIndex: "true",
   title: 'Ohjelmointi kurssit',
   tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://sanjiv.info',
+  baseUrl: '/beta-ok/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -88,7 +89,8 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sanjiv Rana. The material is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">Creative Commons BY-NC-SA 4.0</a>. You are allowed to distribute and modify the content as long as the identities of original authors are not removed. If you modify the content, you have to use the same license. Commercial use without a permit is forbidden.`,
+      copyright: 
+        `Copyright © ${new Date().getFullYear()} Sanjiv Rana. The material is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">Creative Commons BY-NC-SA 4.0</a>. You are allowed to distribute and modify the content as long as the identities of original authors are not removed. If you modify the content, you have to use the same license. Commercial use without a permit is forbidden.`,
     },
     prism: {
       theme: lightCodeTheme,
