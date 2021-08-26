@@ -1,4 +1,5 @@
 ---
+id: htmlcssalkeet
 sidebar_position: 4
 ---
 
@@ -22,7 +23,7 @@ Käy läpi seuraava video-sarja (sisältää 30 videota)
 Tutustu CSS:n ja katso seuraava video
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yfoY53QXEnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 3. Tehtävä
+### 3. Grid
 Tutustu CSS gridiin
 
 * MDN dokumentaatio gridistä
@@ -31,3 +32,14 @@ Tutustu CSS gridiin
     * https://cssgrid.io/
 * Peli jolla voi harjoitella gridin käyttöä
     * https://cssgridgarden.com/
+
+### 4. Flexbox
+Tutustu Flexboxiin
+
+* MDN dokumentaatio Flexistä
+    * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+* Ilmainen kurssisarja
+    * https://flexbox.io/
+* Flexbox Froggy -peli
+    * https://flexboxfroggy.com/
+ 
