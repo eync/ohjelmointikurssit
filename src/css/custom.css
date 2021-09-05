@@ -27,3 +27,24 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+
+table {
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 2em;
+}
+
+th {
+  border-bottom: 1px solid #1A8870;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  border: 1px solid #1A8870;
+  font-weight: 200;
+  padding: 0.65em 1em;
+  text-align:center;
+}
