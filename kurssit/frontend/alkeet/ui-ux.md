@@ -12,6 +12,9 @@ User Interface (UI) ja User Experience (UX) (Suom. Käyttöliittymä ja Käyttö
 ## Wireframe-suunnittelu
 ## Uskalla inspiroitua!
 ## Tehtävät
-### 1. Tehtävä
+### 1. Aloita projekti
+Käy läpi seuraava video tutoriaali kuinka voit päästä alkuun
+https://helpx.adobe.com/fi/xd/how-to/create-new-project-xd.html?playlist=/services/playlist.helpx/products:SG_XD/learn-path:key-techniques/playlist:topic/set-header:set-up-project/fi_FI.json
+
 ### 2. Tehtävä
 ### 3. Tehtävä
