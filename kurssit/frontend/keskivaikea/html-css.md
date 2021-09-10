@@ -45,7 +45,7 @@ Atomic Design
 Mantainable CSS
  
 :::tip Vinkki
-Käy kokeilemassa seuraavaa sivustoa ja kokeile haastaa itsesi pelissä  
+Käy seuraavalla sivustolla ja kokeile haastaa itsesi pelissä  
 
 https://cssbattle.dev/
 :::

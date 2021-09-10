@@ -115,3 +115,16 @@ Adobe XD - Suunnittelusovellus. Voit toteuttaa kyseisellä ohjelmalla mm. verkko
 
 </details>
   
+
+## Luku suositukset
+
+### Kirjat
+Jos haluat tutustua paremmin Javascriptiin kirjojen avulla niin alas on listattu jotain hyviä kirjoja:
+#### Eloquent Javascript
+https://www.adlibris.com/fi/kirja/eloquent-javascript-3rd-edition-9781593279509  
+
+:::tip Verkkokirjat
+- https://javascript.info/
+- https://eloquentjavascript.net/
+- https://github.com/getify/You-Dont-Know-JS
+:::
