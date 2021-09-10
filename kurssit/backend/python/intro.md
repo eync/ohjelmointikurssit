@@ -91,8 +91,9 @@ Python on hyvä ohjelmointikieli jolla voidaan toteuttaa nopeasti erilaisia proj
 ## Luku suositukset
 
 ### Kirjat
-Jos haluat tutustua paremmin Javascriptiin kirjojen avulla niin alas on listattu jotain hyviä kirjoja:
-
+Hyviä kirjoja luettavaksi
+#### Learn Python 3 The Hard Way
+- https://www.adlibris.com/fi/kirja/learn-python-3-the-hard-way-9780134692883
 
 :::tip Verkkokirjat
 - https://python101.pythonlibrary.org/
