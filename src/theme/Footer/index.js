@@ -68,7 +68,7 @@
      return null;
    }
  
-   const isDocs = window.location.pathname.startsWith("/kurssit/")
+   const isDocs = window.location.pathname.startsWith("/beta-ok/kurssit/")
      ? footerRating()
      : "";
    return (

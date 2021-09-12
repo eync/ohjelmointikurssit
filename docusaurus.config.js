@@ -6,7 +6,7 @@ module.exports = {
   noIndex: "true",
   title: 'Ohjelmointi kurssit',
   tagline: '',
-  url: 'https://sanjiv.info',
+  url: 'localhost',
   baseUrl: '/beta-ok/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -32,16 +32,21 @@ module.exports = {
           position: 'right',
           label: 'Apua',
         },
+        {
+          to: '/tekijänoikeustiedot',
+          position: 'right',
+          label: 'Tekijänoikeustiedot',
+        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Kurssitarjonta',
+          title: 'Ohjelmointikurssit',
           items: [
             {
-              label: 'Kurssi info',
+              label: 'Kurssitarjonta',
               to: '/kurssit',
             },
             // {
@@ -66,19 +71,20 @@ module.exports = {
             // },
           ],
         },
-        {
-          title: 'Yhteisöt',
-          items: [
-            {
-              label: 'Discord',
-              href: '#',
-            },
-            {
-              label: 'Twitter',
-              href: '#',
-            },
-          ],
-        },
+        // Will add later
+        // {
+        //   title: 'Yhteisöt',
+        //   items: [
+        //     {
+        //       label: 'Discord',
+        //       href: '#',
+        //     },
+        //     {
+        //       label: 'Twitter',
+        //       href: '#',
+        //     },
+        //   ],
+        // },
         {
           title: 'Lisää',
           items: [
