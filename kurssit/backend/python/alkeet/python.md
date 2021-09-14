@@ -64,12 +64,19 @@ PEP8-ohjeistus ei ole pakollinen jos haluaa koodata Pythonillä, mutta sen käyt
 Käy seuraavalla sivustolla tekemässä muuttujiin liittyvä harjoitustehtävä  
 * https://learnpython.trinket.io/learn-python-part-5-variables
 
-### 2. Tehtävä
-### 3. Tehtävä
+### 2. Visuaalinen tutustuminen
+Tee seuraava harjoitustehtävä missä pääsee kokeilemaan Python:iä ja näkemään koodin toiminnallisuuden visuaalisena
+* https://hourofpython.trinket.io/a-visual-introduction-to-python  
 
-### Bonustehtävä
-Mene alla olevaan sivustoon ja tee kaikki tehtävät  
-* https://hourofpython.trinket.io/a-visual-introduction-to-python
+### 3. Kurssi
+Valitse yksi listatuista kursseista 
+* https://www.programiz.com/python-programming
+* https://www.codecademy.com/learn/learn-python-3
+* https://developers.google.com/edu/python/
+* https://www.edx.org/course/programming-for-everybody-getting-started-with-pyt
+
+<!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rfscVS0vtbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
 
 ## Loppuosio
 Hienoa olet päässyt ensimmäisen Python osuuden läpi! Kirjaudu alla olevan kommenttimoduulin avulla GitHub-tiliisi ja jätä palautetta osiosta sekä merkintä että olet käynyt läpi tämän kurssimoduulin :)
