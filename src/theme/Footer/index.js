@@ -67,12 +67,13 @@
    if (!footer) {
      return null;
    }
- 
-   const isDocs = window.location.pathname.startsWith("/beta-ok/kurssit/")
+   const thePath = "/beta-ok/kurssit/"
+   const checkPath = (`${thePath}backend/` || `${thePath}frontend/`)
+   const isDocs = window.location.pathname.startsWith(checkPath)
      ? footerRating()
      : "";
    return (
-     <>
+     <> a
        {isDocs}
        <footer
          className={clsx("footer", {
