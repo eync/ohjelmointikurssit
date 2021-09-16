@@ -12,6 +12,8 @@
  import styles from "./styles.module.css";
  import ThemedImage from "@theme/ThemedImage";
  import { Giscus } from '@giscus/react';
+ import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+ 
 
  function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
    const toUrl = useBaseUrl(to);
@@ -67,14 +69,17 @@
    if (!footer) {
      return null;
    }
-   const thePath = "/beta-ok/kurssit/"
-   const checkPath = (`${thePath}backend/` || `${thePath}frontend/`)
-   const isDocs = window.location.pathname.startsWith(checkPath)
-     ? footerRating()
-     : "";
+   // gotta fix this later on
+  //  const isBrowser = ExecutionEnvironment.canUseDOM;
+  //  const checkBrowser = isBrowser ? document.location.pathname.startsWith(checkPath) : false;
+  //  const thePath = "/beta-ok/kurssit/"
+  //  const checkPath = (`${thePath}backend/` || `${thePath}frontend/`)
+  //  const isDocs = checkBrowser
+  //    ? footerRating()
+  //    : "";
    return (
-     <> a
-       {isDocs}
+     <> 
+       {/* {isDocs} */}
        <footer
          className={clsx("footer", {
            "footer--dark": footer.style === "dark",
