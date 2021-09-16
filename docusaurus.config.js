@@ -7,7 +7,7 @@ module.exports = {
   title: 'Ohjelmointi kurssit',
   tagline: '',
   url: 'localhost',
-  baseUrl: '/beta-ok/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
