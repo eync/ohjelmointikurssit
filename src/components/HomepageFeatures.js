@@ -1,30 +1,38 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
     title: 'Ajankohtaiset materiaalit',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/undraw_ajankohtaisuus.svg').default,
     description: (
       <>
-        Materiaalit ja väylämoduulit muuttuvat saadun palautteen myötä.
+        Materiaalit ja väylämoduulit muuttuvat teknologia-alan tarpeiden ja myös saadun palautteen myötä.
         Tarjonta on tällä hetkellä sellainen mihin jokaisella on helppo päästä mukaan ja myös haastaa itseänsä.
       </>
     ),
   },
   {
     title: 'Johdonmukaista opettelua',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/undraw_vaylat.svg').default,
     description: (
       <>
-        Selkeät väylät auttavat ohjelmoinnin opettelussa. Sivustolta löydät 5 eri väylää pääteemoittain.
+        Selkeät väylät auttavat ohjelmoinnin opettelussa. Sivustolta löydät viisi web-ohjelmointia tukevaa opiskelu väylää pääteemoittain.
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/kurssit/">
+            Katso saatavilla oleva kurssitarjonta
+          </Link>
+        </div>
       </>
     ),
   },
   {
     title: 'Kuratointi',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/undraw_kuratointi.svg').default,
     description: (
       <>
         Sivulta löydät esimerkiksi videoita mitä hyödynnetään osuuksien selittämisessä. Kaikki suomenkieliset tekstit on kirjoitettu kouluttajan toimesta.
