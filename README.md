@@ -6,10 +6,10 @@ Sivuston dokumentaatio rakenne on seuraavanlainen:
 ```comment
 Kurssiväylä
 -> Moduuli
---> Tehtävä
+--> Osio
 
 esimerkki:
 Kurssiväylä: Frontend 
 -> Moduuli: 1. Frontend Moduuli (helppo)
---> Tehtävä: HTML & CSS
+--> Osio: HTML & CSS
 ```
