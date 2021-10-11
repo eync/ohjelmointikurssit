@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkohjelmointikurssit=self.webpackChunkohjelmointikurssit||[]).push([[4121],{8070:function(s){s.exports=JSON.parse('[{"name":"test","permalink":"/kurssit/tags/test","count":1}]')}}]);
