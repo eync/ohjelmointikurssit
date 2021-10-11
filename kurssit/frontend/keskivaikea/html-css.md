@@ -1,17 +1,17 @@
 ---
-id: htmlcssjatko
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # HTML & CSS
-
+🏗️👷‍♂️🚧 TODO
 
 ## Käytettävyys
-
+🏗️👷‍♂️🚧 TODO
 ## CSS variables
+🏗️👷‍♂️🚧 TODO
 
 ## CSS selectors
-
+🏗️👷‍♂️🚧 TODO
 
 ## Tehtävät
 ### 1. Tehtävä
@@ -38,14 +38,19 @@ Lue seuraavat artikkelit liittyen CSS animaatioihin
 
 ### 5. CSS nimeämistekniikat
 
-cssguidelin.es
-GPS
-BEM
-Atomic Design
-Mantainable CSS
+* [CSS Guidelines](https://cssguidelin.es/)
+* [GPS CSS Methodology](https://github.com/jescalan/gps)  
+* [BEM Naming convetion](http://getbem.com/) 
+* Atomic Design  
+  - https://acss.io/
+  - https://css-tricks.com/lets-define-exactly-atomic-css/
+* [Maintainable CSS](https://maintainablecss.com/)
  
-:::tip Vinkki
+### 1. Bonustehtävä
 Käy seuraavalla sivustolla ja kokeile haastaa itsesi pelissä  
 
 https://cssbattle.dev/
-:::
+
+### 2. Bonustehtävä
+Haasta itsesi 100-päivän ajan pienimuotoisilla päivittäisillä HTML & CSS -tehtävillä 
+* https://www.dailyui.co/ 

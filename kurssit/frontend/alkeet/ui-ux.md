@@ -1,24 +1,29 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # UI/UX
-![img](/img/undraw_ui_ux.svg)  
+<img class="header_img" src="/img/undraw_ui_ux.svg" />  
 
 User Interface (UI) ja User Experience (UX) (Suom. Käyttöliittymä ja Käyttökokemus), ovat kummatkin erittäin tärkeitä tuotteen loppuun saamiseksi ja käyttömukavuuden takia.
 
 ## Ohjelmisto
-TODO
+Tällä hetkellä markkinoilta löytyy todella monta hyvää ohjelmistoa millä voi toteuttaa mm. layout-suunnittelua.
+
+- Adobe XD
+- Sketch
+- Figma
+
 ## Fonttien ja värien merkitys
-TODO
+🏗️👷‍♂️🚧 TODO
 :::tip Vinkki
 Hyvä työkalu värien suunnitteluun
 * https://coolors.co
 :::
 ## Wireframe-suunnittelu
-TODO
+🏗️👷‍♂️🚧 TODO
 ## Uskalla inspiroitua!
-TODO
+🏗️👷‍♂️🚧 TODO
 :::tip Vinkki
 Jos joskus tuntuu siltä että ei meinaa löytyä puhtia uusien ideoiden toteuttamiseen, niin on suositeltavaa käyttää muun muassa seuraavia sivustoja hyödykseen inspiraation löytämiseksi.
 * https://dribbble.com  
@@ -28,9 +33,27 @@ Erittäin suosittu design-yhteisöpalvelu. Suositeltavaa on luoda tili yhteisö�
 Adobe tuottama design-yhteisöpalvelu. Täältä löydät kaikkea ja toimii erittäin hyvin yhdessä Adobe-tuotteiden kanssa muun muassa Adobe XD kanssa. Suositeltavaa on rekisteröityä jotta saa palvelusta kaiken mahdollisen irti.
 :::
 ## Tehtävät
-### 1. Aloita projekti
-Käy läpi seuraava video tutoriaali kuinka voit päästä alkuun
-https://helpx.adobe.com/fi/xd/how-to/create-new-project-xd.html?playlist=/services/playlist.helpx/products:SG_XD/learn-path:key-techniques/playlist:topic/set-header:set-up-project/fi_FI.json
+### 1. Aloita XD projekti
+Mene seuraavalle sivustolle, tee harjoitukset aloittaen oppijaksosta "Start an XD project"
+- https://helpx.adobe.com/fi/xd/tutorials.html
 
-### 2. Tehtävä
-### 3. Tehtävä
+### 2. Väripaletti
+Väripaletin määrittelyä suunnitelmaan, katso seuraava video aiheesta
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eXcKOqviLE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+Kirjoita itsellesi ylös muistiinpanoja aiheesta.
+
+### 3. Layout Grid
+Lue seuraava Smashing Magazinen artikkeli, kuinka UI-suunnitelussa voidaan käyttää grid (suom. ruudukko) hyödykseen ja mitä etuja siitä on.
+* https://www.smashingmagazine.com/2017/12/building-better-ui-designs-layout-grids/
+
+:::info UI / UX-suunnitteluun liittyvät verkkosivut
+* https://www.smashingmagazine.com/
+* https://material.io/
+* https://www.designernews.co/
+* https://hackingui.com/
+* http://theuxlist.com/tuxl/
+* https://usabilitygeek.com/
+* https://speckyboy.com/
+:::

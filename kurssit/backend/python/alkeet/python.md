@@ -17,11 +17,11 @@ Ohjelmointikielenä sisältää seuraavia ominaisuuksia jotka verrattavissa muih
 Voidaan soveltaa erilaisia tyylejä rakentaessa tai tehdessä koodia. Esimerkiksi Pythonissä on mahdollista tehdä muun muassa funktionaalista-, olio- ja imperatiivistä ohjelmointia. 
 
 ### Tyyppijärjestelmän hyödyt
-TODO
+🏗️👷‍♂️🚧 TODO
 ### Turvallisuus tyypit
-TODO
+🏗️👷‍♂️🚧 TODO
 ### Dynaamiset tyypit
-TODO
+🏗️👷‍♂️🚧 TODO
 
 ## Pythonin alkeet
 
@@ -38,19 +38,19 @@ Alkeissa käsittelemme Pythonin selkeyttä kirjoittaessa koodia, ja kuinka pää
 Nämä osiot käymällä läpi pääset hyvin Python-ohjelmointikielen fundamentaaleihin kiinni. 
 
 ### Muuttujat
-TODO
+🏗️👷‍♂️🚧 TODO
 ### Avainsanat
-TODO
+🏗️👷‍♂️🚧 TODO
 ### Kommentointi
-TODO
+🏗️👷‍♂️🚧 TODO
 ### Datatyypit
-TODO
+🏗️👷‍♂️🚧 TODO
 ### Ehdolliset lausekkeet
-TODO
+🏗️👷‍♂️🚧 TODO
 ### Funktiot
-TODO
+🏗️👷‍♂️🚧 TODO
 ### Silmukat
-TODO
+🏗️👷‍♂️🚧 TODO
 
 ## Koodaustyyli 
 Kirjoittaessa Pythoniä pitää muistaa ylläpitää tiettyä tyyliä. PEP8 on Python-ohjelmointikielen virallinen koodaustyyli ohjeistus. 

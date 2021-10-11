@@ -11,8 +11,7 @@ Koodin kommentointi on erittäin tärkeä dokumentaatio työväline jolla voidaa
 ## Tehtävät
 
 ### 1. Miten koodia kannattaa kommentoida
-Lue molemmat artikkelit liittyen koodin kommentointiin
-* https://www.cs.utah.edu/~germain/PPS/Topics/commenting.html
+Lue molemmat artikkeli liittyen koodin kommentoinnin alkeisiin.
 * https://www.codeconquest.com/advanced-programming-concepts/code-commenting/
 
 ### 2. Kuinka kirjoittaa hyvä dokumentaatio
