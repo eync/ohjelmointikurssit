@@ -1,0 +1,81 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import GetFile from '@site/kurssit/misc/_dom_html_esimerkki.md'  
+import GetFile2 from '@site/kurssit/misc/_dom_nakyma_esimerkki.md'  
+
+Javascript on web-ympäristössä pyöritettävä skriptikieli. Alkuperäinen tarkoitus kielelle oli tuoda lisätoiminallisuutta verkkosivuille. 
+Sitä voidaan käyttää esimerkiksi: HTML-pohjaisten verkkosivujen dokumenttipuun manipulointiin, pyörittää palvelinpuolen verkko-ohjelmoinnissa Node.js avustuksella ilman tarvetta erilliselle verkkoselaimelle, mobiilikehityksessä ja pelikehityksessä.
+
+
+## Kirjastot
+Vaikka javascriptillä itsessään voi saada paljon aikaiseksi, niin samaan aikaan javascript kirjastojen ja kehysohjelmistojen suosio on noussut ylöspäin.  
+Tässä muutama tärkeä Javascript kirjasto:
+1. React.js
+2. Node.js 
+3. Vue.js
+4. jQuery
+
+:::caution Huomioitavaa
+jQuery on otettu listalle koska se on mainitsemisen arvoinen ja yhä suuri jättiläinen Javascript markkinoilla. Vaikka sen onkin jo moni yrittänyt korvata muilla uudemmilla ja paremmilla kirjastoilla tai kielillä, niin on se onnistunut pitämään pintansa. Sillä onkin yhä viikottainen latausmäärä n. 4+ miljoonaa kertaa (<a href="https://www.npmjs.com/package/jquery">Lähde</a>).   
+Toivottavaa onkin että kaikki siirtyisivät käyttämään parempia vaihtoehtoja kuten esimerkiksi natiivia javascriptiä, Vue.js- tai React.js kirjastoa.  
+2021 oli selkeästi muutoksen vuosi ja tällöin jQuery tipahti toiselle sijalle web-kehittäjille tehdyssä kyselyssä, React.js ottaessa ensimmäisen paikan (<a href="https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-web-frameworks">Lähde</a>).  
+___Kurssilla ei tulla panostautumaan kyseiseen Javascript-kirjastoon lainkaan.___
+:::
+
+## Document Object Model (DOM) standardi
+Luodessasi HTML-dokumenttiä sisällytät siihen valitsemasi HTML-merkinnät ja -elementit. Näin tehdessäsi luot tietynlaisen hierarkian jota kutsutaan myös puuksi (engl. tree) (vaihtoehtoisesti: dokumentti puu [engl. document tree]).
+
+<Tabs>
+    <TabItem value="1" label="HTML esimerkki" default>
+        <GetFile />
+    </TabItem>
+    <TabItem value="2" label="DOM puu">
+        <GetFile2 />
+    </TabItem>
+    <TabItem value="3" label="Selaimen Javascript Objekti">
+        <img src="/img/esimerkki_firefox.png" />
+        <i>Kuvassa näet DOM puu:n javascriptiin sopivassa muodossa.</i>
+    </TabItem>
+</Tabs>
+
+
+### Manipulointi
+🏗️👷‍♂️🚧 TODO
+
+## Tehtävät
+
+### 1. Javascriptin alkeet
+Tee seuraava kurssi liittyen javascriptin alkeisiin
+
+* https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/
+
+### 2. Mitä eroa on Var, Let ja Const muuttujilla
+Lue seuraava kirjoitus siitä mitä eroa näillä muuttujilla on keskenään
+
+* https://dzone.com/articles/javascript-difference-between-var-let-and-const-ke
+
+### 3. Mikä on Arrow Function
+
+* https://stackoverflow.com/questions/24900875/whats-the-meaning-of-an-arrow-formed-from-equals-greater-than-in-javas/24900924#24900924
+
+### 4. Javascript.info
+Käy läpi kaikki seuraavat kappaleet : 1.1 - 2.18, ja tee tehtävät.
+
+* https://javascript.info/ 
+
+## Frontend
+:::warning Huom.
+Seuraavat tehtävät on tarkoitettu Frontend väylää opiskeleville henkilöille.
+:::
+### 5. Document Object Model (DOM) standardi
+
+* MDN dokumentaatio DOM standardista
+    * https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+  
+Katso seuraava videosarja ja tee perässä  
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FIORjGvT0kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 6. Hyvä tietää ennen Reactiin siirtymistä
+Ennenkuin siirryt React osioon niin lue seuraava artikkeli  
+* https://www.robinwieruch.de/javascript-fundamentals-react-requirements  
