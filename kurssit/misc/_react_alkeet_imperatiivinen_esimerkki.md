@@ -2,10 +2,10 @@ Imperatiivisessä koodissa käydään tekemässä ja samalla tarkistetaan että 
 ```js title="Esimerkki imperatiivisesta javascript koodista"
 const kurssit = ['Frontend väylä','Backend väylä','Fullstack väylä'];
 
-const tekstinPituus = () => {
+const tekstinPituus = tulo => {
     let kurssitLaskettuna = [];
-    for (let x = 0; x < kurssit.length; x++) {
-        kurssitLaskettuna.push(kurssit[x].length)
+    for (let x = 0; x < tulo.length; x++) {
+        kurssitLaskettuna.push(tulo[x].length)
     }
     return kurssitLaskettuna
 }
