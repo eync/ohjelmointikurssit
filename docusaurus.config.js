@@ -6,14 +6,22 @@ module.exports = {
   noIndex: "true",
   title: 'Ohjelmointi kurssit',
   tagline: '',
-  url: 'localhost',
+  url: 'https://beta.ohjelmointikurssit.com',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'eync', // Usually your GitHub org/user name.
   projectName: 'ohjelmointikurssit', // Usually your repo name.
   themeConfig: {
+    announcementBar: {
+      id: 'huomioitavaas',
+      content: '<strong>⚠️ Huom. sivusto on yhä beta vaiheessa, sisältöä työstetään ja se voi myös muuttua. ⭐️ Jos pidät sivustosta käy antamassa sille tähti <a href="https://github.com/eync/ohjelmointikurssit" title="GitHub repository">GitHubissa</a>. </strong>',
+      backgroundColor: '#303846',
+      textColor: 'var(--ifm-color-warning)',
+      isCloseable: false,
+    },
     navbar: {
       title: 'Ohjelmointi kurssit (beta)',
       items: [
@@ -21,6 +29,21 @@ module.exports = {
           to: '/kurssit',
           position: 'right',
           label: 'Kurssit',
+          type: 'dropdown', 
+          items: [
+            {
+              label: 'Frontend väylä',
+              to: '/kurssit/frontend/intro',
+            },
+            {
+              label: 'Backend väylä (javascript)',
+              to: '/kurssit/backend/javascript/intro',
+            },
+            {
+              label: 'Backend väylä (python)',
+              to: '/kurssit/backend/python/intro',
+            }, 
+          ],
         },
         {
           to: '/resurssit',
@@ -98,6 +121,7 @@ module.exports = {
       copyright: 
         `Copyright © ${new Date().getFullYear()} Sanjiv Rana - <a href="/copyright">Tekijänoikeustiedot</a>`,
     },
+    // themes: ['@docusaurus/theme-live-codeblock'],
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
