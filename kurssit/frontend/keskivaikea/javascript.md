@@ -16,7 +16,9 @@ sidebar_position: 4
 ## Tehtävät
 
 ### 1. Tehtävä
-* https://www.jschallenger.com/
+Mitä objektit on javascriptissä? Kuinka niitä hyödynnetään? Seuraavat sivustot auttavat sen ymmärtämisessä paremmin.
+- https://eloquentjavascript.net/04_data.html
+- https://javascript.info/object-basics
 
 ### 3. Tehtävä
 Käy läpi seuraava jakso Javascript.info verkkosivustolla
@@ -28,9 +30,11 @@ Promises eli lupauksien ymmärtäminen ei aina ole helppoa, seuraava sivusto aut
 :::
 
 ### 2. Pelaa peliä
-* https://jamstack-attack.herokuapp.com/
-* https://lab.reaal.me/jsrobot/
+
 
 ### 1. Bonustehtävä
 Rekisteröidy seuraavalle verkkosivustolle, tee Javascript haasteita ja vahvista osaamistasi
-- https://www.codewars.com/
+* https://www.jschallenger.com/
+* https://www.codewars.com/
+* https://jamstack-attack.herokuapp.com/
+* https://lab.reaal.me/jsrobot/
