@@ -32,17 +32,17 @@ module.exports = {
           type: 'dropdown', 
           items: [
             {
-              label: 'Frontend väylä',
+              label: 'Frontend väylä (javascript)',
               to: '/kurssit/frontend/intro',
             },
             {
               label: 'Backend väylä (javascript)',
               to: '/kurssit/backend/javascript/intro',
             },
-            {
-              label: 'Backend väylä (python)',
-              to: '/kurssit/backend/python/intro',
-            }, 
+            // {
+            //   label: 'Backend väylä (python)',
+            //   to: '/kurssit/backend/python/intro',
+            // }, 
           ],
         },
         {
