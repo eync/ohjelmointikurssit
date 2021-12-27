@@ -42,7 +42,7 @@
 // Let's verify pathname and if correct let's render GithubReactionArea. 
 const VerifyPath = () => {
   const isBrowser = useIsBrowser();
-  return <div>{isBrowser && (document.location.pathname.includes('/kurssit/frontend') || document.location.pathname.includes('/kurssit/backend') ) ? '<GithubReactionArea />' : ''}</div>;
+  return <div>{isBrowser && (document.location.pathname.includes('/kurssit/frontend') || document.location.pathname.includes('/kurssit/backend') ) ? <GithubReactionArea /> : ''}</div>;
 };
 const GithubReactionArea = () => {
   return(
