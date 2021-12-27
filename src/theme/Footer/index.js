@@ -11,9 +11,8 @@
  import useBaseUrl from "@docusaurus/useBaseUrl";
  import styles from "./styles.module.css";
  import ThemedImage from "@theme/ThemedImage";
- import { Giscus } from '@giscus/react';
- import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
- 
+ import BrowserOnly from '@docusaurus/BrowserOnly';
+ import useIsBrowser from '@docusaurus/useIsBrowser';
 
  function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
    const toUrl = useBaseUrl(to);
@@ -40,23 +39,38 @@
  const FooterLogo = ({ sources, alt }) => (
    <ThemedImage className="footer__logo" alt={alt} sources={sources} />
  );
- 
- const footerRating = () => (
-   <div className="container container--fluid margin-vert--lg">
-     <Giscus
-        repo="eync/ohjelmointikurssit"
-        repoId="MDEwOlJlcG9zaXRvcnkzOTY2MjQ4MTc="
-        category="Announcements"
-        categoryId="DIC_kwDOF6QDsc4B-uxv"
-        mapping="url"
-        reactionsEnabled="1"
-        emitMetadata="0"
-        theme="dark_dimmed"
-        crossorigin="anonymous"
-        async
-      />
-   </div>
- );
+// Let's verify pathname and if correct let's render GithubReactionArea. 
+const VerifyPath = () => {
+  const isBrowser = useIsBrowser();
+  return <div>{isBrowser && (document.location.pathname.includes('/kurssit/frontend') || document.location.pathname.includes('/kurssit/backend') ) ? '<GithubReactionArea />' : ''}</div>;
+};
+const GithubReactionArea = () => {
+  return(
+    <BrowserOnly fallback={<div>Ladataan...</div>}>
+      {() => {
+        const { Giscus } = require('@giscus/react');
+
+          return (
+            <div className="container container--fluid margin-vert--lg">
+              <Giscus
+                repo="eync/ohjelmointikurssit"
+                repoId="MDEwOlJlcG9zaXRvcnkzOTY2MjQ4MTc="
+                category="Announcements"
+                categoryId="DIC_kwDOF6QDsc4B-uxv"
+                mapping="url"
+                reactionsEnabled="1"
+                emitMetadata="0"
+                theme="dark_dimmed"
+                crossorigin="anonymous"
+                async
+              />
+            </div>
+          )
+        }
+      }
+    </BrowserOnly>
+  )
+}
  
  function Footer() {
    const { footer } = useThemeConfig();
@@ -69,17 +83,10 @@
    if (!footer) {
      return null;
    }
-   // gotta fix this later on
-  //  const isBrowser = ExecutionEnvironment.canUseDOM;
-  //  const checkBrowser = isBrowser ? document.location.pathname.startsWith(checkPath) : false;
-  //  const thePath = "/beta-ok/kurssit/"
-  //  const checkPath = (`${thePath}backend/` || `${thePath}frontend/`)
-  //  const isDocs = checkBrowser
-  //    ? footerRating()
-  //    : "";
+
    return (
      <> 
-       {/* {isDocs} */}
+      <VerifyPath />
        <footer
          className={clsx("footer", {
            "footer--dark": footer.style === "dark",
