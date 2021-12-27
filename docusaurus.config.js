@@ -72,6 +72,10 @@ module.exports = {
               label: 'Kurssitarjonta',
               to: '/kurssit',
             },
+            {
+              label: 'Tietoa projektista',
+              to: '/tietoa'
+            }
             // {
             //   label: 'Frontend [javascript]',
             //   to: '/kurssit',
@@ -94,27 +98,26 @@ module.exports = {
             // },
           ],
         },
-        // Will add later
-        // {
-        //   title: 'Yhteisöt',
-        //   items: [
-        //     {
-        //       label: 'Discord',
-        //       href: '#',
-        //     },
-        //     {
-        //       label: 'Twitter',
-        //       href: '#',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'GitHub',
+          items: [
+            {
+              label: 'Repo',
+              href: 'https://github.com/eync/ohjelmointikurssit',
+            },
+            {
+              label: 'Organisaatio',
+              href: 'https://github.com/ohjelmointikurssit',
+            },
+          ],
+        },
         {
           title: 'Lisää',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/eync/ohjelmointikurssit',
-            },
+              label: 'Discord',
+              href: 'https://discord.gg/H2VwXEGWHT',
+            }
           ],
         },
       ],
