@@ -15,6 +15,16 @@ Terminaalilla pystymme myös kirjoittamaan skriptejä eli automaattisia toiminto
 
 Tarvitsemme hyvän yleisymmärryksen komentoliittymän (terminaalin) käytöstä, jos haluamme olla hyviä koodareita. Sitä käytetään päivittäin ja sen ymmärtäminen on erittäin tärkeää.
 
+## Terminaali tietokoneen käyttöjärjestelmän perusteella
+
+Komennot ovat universaaleja ja samat komennot pätee Windowsilla ja Macilla. Paitsi, että windowsin CMD (Command Prompt) on erittäin huono ja sitä ei kannata käyttää. Se ei tue kaikkia koodauksessa tarvittavia komentoja. Joten windowsille suositellaan PowerShelliä joka on parempi versio CMD:stä. 
+
+Macilla nykyään terminaali on nimellä "zsh" - macOS Catalinasta ylöspäin. Vanhemissa versioissa nimellä "Bash". 
+
+TLDR; Mitä terminaalia käyttää?  
+Windows -> PowerShell  
+Mac -> zsh
+
 
 ## Tehtävät
 
@@ -35,3 +45,26 @@ Kiinnitä huomiota erityisesti näihin komentoihin ja kirjoita niistä muistiinp
 | cat         | lue tiedosto  |
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CV-ven_rxhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 2. Terminaalilla oma projektit kansio
+
+Nyt kun olemme saaneet ymmärrystä terminaalista voimme aloittaa sen käyttämisen. 
+
+Teemme terminaalin avulla developer kansion johon lisäämme kaikki koodit/projektit/muistiinpanot jotka luomme täällä digitalents academyn pajalla.
+
+1. Avaa terminaali.
+2. Printtaa missä olet.
+3. Printtaa mitä tiedostoja tässä kansiossa on.
+
+Tässä vaiheessa on hyvä päättää minne haluamme tehdä "developer" kansion. Haluamme kansion olevan helposti saatavilla.
+
+Omasta kokemuksesta tykkään laittaa "dev" kansion heti käyttäjä juureen joka on yleensä kohteessa /user/joaleitola. Voit itse päättää.
+
+<img src="/img/terminal-exercise-img-1.png" style={{width: 590, height: 350}}/>
+
+4. Tee uusi directory ja anna sille nimeksi "developer".
+5. Printtaa mitä tiedostoja tässä kansiossa on ja huomaa uusi "developer" directory.
+6. Siirry uuteen "developer" kansioon.
+7. Printtaa missä olet.
+8. Tee uusi tekstitiedosto "developer" kansioon nimellä "random.txt".
+9. TODO TODO
