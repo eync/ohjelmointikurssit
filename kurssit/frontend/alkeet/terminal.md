@@ -17,12 +17,12 @@ Tarvitsemme hyvän yleisymmärryksen komentoliittymän (terminaalin) käytöstä
 
 ## Terminaali tietokoneen käyttöjärjestelmän perusteella
 
-Komennot ovat universaaleja ja samat komennot pätee Windowsilla ja Macilla. Paitsi, että windowsin CMD (Command Prompt) on erittäin huono ja sitä ei kannata käyttää. Se ei tue kaikkia koodauksessa tarvittavia komentoja. Joten windowsille suositellaan PowerShelliä joka on parempi versio CMD:stä. 
+Komennot ovat universaaleja ja samat komennot pätee Windowsilla ja Macilla. Paitsi, että windowsin CMD (Command Prompt) on erittäin huono ja sitä ei kannata käyttää. Se ei tue kaikkia koodauksessa tarvittavia komentoja. Joten windowsille suositellaan jotain erikseen ladattaa softaa. Esim PowerShell, GitBash tai Cmder. 
 
 Macilla nykyään terminaali on nimellä "zsh" - macOS Catalinasta ylöspäin. Vanhemissa versioissa nimellä "Bash". 
 
 TLDR; Mitä terminaalia käyttää?  
-Windows -> PowerShell  
+Windows -> PowerShell, GitBash tai Cmder   
 Mac -> zsh / bash
 
 
@@ -60,7 +60,7 @@ Käytämme myös oikeaa nimikettä kansiolle joka on "directory".
 
 Tässä vaiheessa on hyvä päättää minne haluamme tehdä "developer" directoryn. Haluamme sen olevan helposti saatavilla.
 
-Omasta kokemuksesta tykkään laittaa "dev" directoryn heti käyttäjä juureen joka on yleensä kohteessa /user/joaleitola. Voit itse päättää.
+Omasta kokemuksesta tykkään laittaa "developer" directoryn heti käyttäjä juureen joka on yleensä kohteessa /user/joaleitola. Miksi? Koska se säästää aikaa ja sinne pääsee nopeasti heti terminaalin avautuessa ja ei tarvitse seikkailla kymmeniä foldereita. Voit itse päättää.
 
 <img src="/img/terminal-exercise-img-1.png" style={{width: 590, height: 350}}/>
 
