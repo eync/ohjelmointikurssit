@@ -56,6 +56,11 @@ module.exports = {
           label: 'Apua',
         },
         {
+          to: '/uutiskirje',
+          position: 'right',
+          label: 'Uutiskirje',
+        },
+        {
           to: '/copyright',
           position: 'right',
           label: 'Tekijänoikeustiedot',
@@ -145,6 +150,10 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        blog: {
+          path: './uutiskirje',
+          routeBasePath: 'uutiskirje'
+        }
       },
     ],
   ],
