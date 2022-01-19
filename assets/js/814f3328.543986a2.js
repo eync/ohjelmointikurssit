@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkohjelmointikurssit=self.webpackChunkohjelmointikurssit||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"OK uutiskirje - vuoden ensimm\xe4inen","permalink":"/uutiskirje/ensimmainen-uutiskirje"}]}')}}]);

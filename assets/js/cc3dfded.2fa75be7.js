@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkohjelmointikurssit=self.webpackChunkohjelmointikurssit||[]).push([[6240],{4723:function(i){i.exports=JSON.parse('{"/uutiskirje/tags/uutiskirje":{"allTagsPath":"/uutiskirje/tags","slug":"/uutiskirje/tags/uutiskirje","name":"uutiskirje","count":1,"permalink":"/uutiskirje/tags/uutiskirje"}}')}}]);

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Ohjelmointi kurssit Blog</title>
+        <link>https://beta.ohjelmointikurssit.com/uutiskirje</link>
+        <description>Ohjelmointi kurssit Blog</description>
+        <lastBuildDate>Wed, 19 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[OK uutiskirje - vuoden ensimmäinen]]></title>
+            <link>https://beta.ohjelmointikurssit.com/uutiskirje/ensimmainen-uutiskirje</link>
+            <guid>ensimmainen-uutiskirje</guid>
+            <pubDate>Wed, 19 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[OK uutiskirje - ensimmäinen julkaisu!]]></description>
+            <content:encoded><![CDATA[<p>Tervetuloa meidän uuteen OK uutiskirje osuuteen! Täällä tiedotamme tasaisin aikavälein sivustoa koskevista muutoksista ja uudistuksista. Välitämme myös ajankohtaisia linkkejä tänne kategorioista kuten: tiede, teknologia, ohjelmointi ja paljon muita ajankohtaisia asioita.</p><h2>Ohjelmointikurssit päivityksiä</h2><h3>Liity Discordiin 🔥</h3><p>Meillä on Discord-palvelin toiminnassa ja olet erittäin tervetullut Ohjelmointi Kurssin yhteisöön.  <a href="https://discord.gg/H2VwXEGWHT" title="Liity tästä linkistä.">Liity tästä linkistä.</a></p><h3>🆕 Komentokehote 💻</h3><p>Joa on valmistellut sivustolle komentokehote osuutta, joka on nyt valmis ja julkaistu sivustolle. Aihe on erittäin tärkeä varsinkin IT- ja ohjelmointialalla. Löydät sen nimellä <!-- -->[&quot;Komentoliittymä&quot;]<!-- -->(<a href="https://beta.ohjelmointikurssit.com/kurssit/frontend/alkeet/terminal/">https://beta.ohjelmointikurssit.com/kurssit/frontend/alkeet/terminal/</a> &quot;Komentoliittymä) Backend- tai Frontend-väylän ensimmäisestä moduuliosuudesta. </p><h2>📰 Aiheita ja uutisia</h2><h4>gRPC ja REST: Mitä eroa?</h4><p>Postman julkaisi vähän aikaa sitten <a href="https://blog.postman.com/postman-now-supports-grpc/" title="tiedotteen">tiedotteen</a>, jossa kertoivat alkavansa tukea Googlen kehittämää gRPC tietoliikenneprotokollaa. Artikellisessa käydään läpi mitä eroa on gRPC ja REST yhteyksillä.</p><ul><li><a href="https://www.imaginarycloud.com/blog/grpc-vs-rest/">https://www.imaginarycloud.com/blog/grpc-vs-rest/</a></li></ul><h4>Kuinka tehdä kauniita liukuvärejä</h4><p>CSS mahdollistaa hyvin paljon efektejä värien suhteen, kuten esimerkiksi liukuvärit. Mutta onko se helppoa tehdä liukuväreistä kauniita? Seuraava artikkeli valaisee asiaa. </p><ul><li><a href="https://www.joshwcomeau.com/css/make-beautiful-gradients/">https://www.joshwcomeau.com/css/make-beautiful-gradients/</a></li></ul><h4>Microsoft ostaa Blizzard-Activision yhtiön</h4><p>Microsoft on julkaissut tiedotteen jolla he ilmoittavat ostavansa Blizzard-Activision yhtiön. Kaupan suuruus on n. 68 miljardia dollaria. </p><ul><li><a href="https://muropaketti.com/pelit/peliuutiset/microsoft-ostaa-activision-blizzardin-kauppasumma-lahes-suomen-valtion-vuosibudjetin-verran/">https://muropaketti.com/pelit/peliuutiset/microsoft-ostaa-activision-blizzardin-kauppasumma-lahes-suomen-valtion-vuosibudjetin-verran/</a></li></ul><h4>Tailwind - CSS viitekehys</h4><p>CSS viitekehykset ovat hyviä ja niillä pystyy toteuttamaan nopeasti prototyyppejä ja kokonaisia verkkosivuja. Tailwind on tästä hyvä esimerkki ja on nostanut viime vuosina tasojaan merkittävästi erilaisilla hyvillä uudistuksilla.
+<a href="https://github.com/tailwindlabs/tailwindcss">https://github.com/tailwindlabs/tailwindcss</a></p><hr/>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

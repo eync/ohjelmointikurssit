@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkohjelmointikurssit=self.webpackChunkohjelmointikurssit||[]).push([[1255],{7840:function(e){e.exports=JSON.parse('{"permalink":"/uutiskirje","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
